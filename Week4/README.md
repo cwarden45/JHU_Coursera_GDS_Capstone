@@ -72,7 +72,7 @@ And, here is [SOX11](https://www.ncbi.nlm.nih.gov/gene/6664) (referenced in the 
 
 ![IGV View](IGV_SOX11.png "IGV View")
 
-Samples are sorted by SRR accession from the SRA, but not by group (Adult vs Fetal).  Infant samples were re-aligned put not plotted for reasons of space.
+Samples in the IGV plots above are sorted by SRR accession from the SRA, but not by group (Adult vs Fetal).  Infant samples were re-aligned put not plotted for reasons of space.
 
 - Confirming the metadata falls in expected categories (I initially wrote down one set of metadata wrong, and I also swapped the information for 2 pairs of samples that were not deposited):
 
