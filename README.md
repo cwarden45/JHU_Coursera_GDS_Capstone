@@ -1,10 +1,10 @@
 These are my detailed methods for my Capstone Project for the [Genomic Data Science](https://www.coursera.org/specializations/genomic-data-science) Specialization.
 
-Week 4 - *Alignment*
+[Week 4](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/tree/main/Week4) - *Alignment* (scroll down to see README.md content, or click [here](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week4/README.md))
 
-Week 5 - *QC the Alignment*
+[Week 5](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/tree/main/Week5) - *QC the Alignment* (scroll down to see README.md content, or click [here](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week5/README.md))
 
-Week 6 - *Get Feature Counts*
+[Week 6](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/tree/main/Week6) - *Get Feature Counts* (scroll down a little to see README.md content, or click [here](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week6/README.md))
 
 Week 7 - *Exploratory Analysis*
 
