@@ -39,7 +39,7 @@ The original hg19 sequence was downloaded from [Illumina iGenomes](https://suppo
 
 While different than the alignment rate, the downloaded starting reads correlate with the mapped reads in the paper:
 
-![Comparison of Alignment Rates](alignment_comparison.png "Comparison of Alignment Rates")
+![Comparison of Alignment Rates](alignment_comparison-STAR_log_unique.png "Comparison of Alignment Rates")
 
 *R*: version 3.6.3
 
