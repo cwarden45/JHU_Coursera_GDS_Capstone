@@ -66,7 +66,11 @@ This is a point raised in [this discussion](https://www.coursera.org/learn/genom
 
 Here is the housekeeping gene [GAPDH](https://www.ncbi.nlm.nih.gov/gene/2597) (as a general qualitative QC check):
 
+![IGV View](IGV_GAPDH.png "IGV View")
+
 And, here is [SOX11](https://www.ncbi.nlm.nih.gov/gene/6664) (referenced in the videos and [Figure 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281298/figure/F1/), which noticable variation between samples):
+
+![IGV View](IGV_SOX11.png "IGV View")
 
 Samples are sorted by SRR accession from the SRA, but not by group (Adult vs Fetal).  Infant samples were re-aligned put not plotted for reasons of space.
 
