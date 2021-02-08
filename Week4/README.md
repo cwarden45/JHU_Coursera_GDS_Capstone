@@ -45,7 +45,7 @@ While different than the alignment rate, the downloaded starting reads correlate
 
 **4b)** In theory, you could use *samtools* `flagstat` to provide one set of alignment rate statistics using `samtools_flagstat.py` (along with `summarize_flagstat.R`)
 
-I include this in the report for comparison.  However, this is greater than 99%, so I think this might not be the best QC measure.
+I include this in the report for comparison.  However, this is greater than 99% for all samples, so I question whether this might not be the best QC measure.
 
 *samtools*: version 1.9-168-gb1e2c78
 *Python*: version 2.7.18
