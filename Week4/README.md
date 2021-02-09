@@ -54,6 +54,7 @@ I include this in the report for comparison.  However, this is greater than 99% 
 *Python*: version 2.7.18
 
 *R*: version 3.6.3
+
 *GenomicAlignments R package*: version 1.20.1
 
 **4c)** Compare to *GenomicAlignments* total unique read name counts using `GenomicAlignments_aligned_reads.R`
