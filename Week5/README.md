@@ -74,12 +74,15 @@ A summary plot was then created using `plot_extra_FastQC_stats.R`, for the forwa
 ![Additional FastQC Plots](FastQC_selected_summarized_values.png "Additional FastQC Plots")
 
 *FastQC*: version 0.11.9
+
 *Python*: version 2.7.18
+
 *R*: version 3.6.3
 
 **2)** Run [RSeQC](http://rseqc.sourceforge.net/) order to check the strand (needed for quantification at the next step) and calculate the TIN score for each sample using `run_RSeQC.py`.
 
 *RSeQC*: version 4.0.0 (determined using *pip3 show RSeQC*)
+
 *Python*: version 2.7.18 (for script wrapper - Python version 3.8.5 was used to install RSeQC)
 
 **3)** Summarize results using `collect_RSeQC_stats.py`
