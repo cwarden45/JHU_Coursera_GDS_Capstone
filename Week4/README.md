@@ -93,7 +93,7 @@ However, for STAR, there are no reported unaligned reads (at least with the sett
 
 - **You can also run similar analysis with [TopHat2](https://ccb.jhu.edu/software/tophat/index.shtml) instead of STAR.**
 
-I used `TopHat_PE_Alignment.py` for the alignment,  I used `summarize_TopHat2.py` to summarize the TopHat2 log, and I the same `GenomicAlignments_aligned_reads.R` script as STAR for the alternate alignment rate calculation.
+I used `TopHat_PE_Alignment.py` for the alignment,  I used `summarize_TopHat2.py` to summarize the TopHat2 log, and I used the same `GenomicAlignments_aligned_reads.R` script as STAR for the alternate alignment rate calculation.
 
 SRR1554536 is an outlier with a low GenomicAlignments alignment rate, with either the STAR alignment or the TopHat2 alignment rate.  This also matches a [lower quantification rate](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week6/README.md) in Week 6.
 
