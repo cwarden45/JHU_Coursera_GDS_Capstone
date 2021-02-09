@@ -59,7 +59,7 @@ I include this in the report for comparison.  However, this is greater than 99% 
 
 **4c)** Compare to *GenomicAlignments* total unique read name counts using `GenomicAlignments_aligned_reads.R`
 
-This is a point raised in [this discussion](https://www.coursera.org/learn/genomic-data-science-project/discussions/weeks/4/threads/fqeAr2joEeu6wArSRfVFHws), which I hope to look into more a little later on.
+While I think it might reflect something relevant, the absolute values are noticably different for some samples.  This is a point raised in [this discussion](https://www.coursera.org/learn/genomic-data-science-project/discussions/weeks/4/threads/fqeAr2joEeu6wArSRfVFHws), which I hope to look into more a little later on.  For example, I can also see some correlations with other factors, such as the [percent quantified reads](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week6/README.md) (within annotated genes).
 
 *R*: version 3.6.3
 
