@@ -32,7 +32,9 @@ The original hg19 sequence was downloaded from [Illumina iGenomes](https://suppo
 **3)** Align read using *STAR*, and reformat/sort/index alignments using samtools (with `STAR_PE_Alignment.py`)
 
 *STAR*: version 2.7.2d
+
 *Python*: version 2.7.18
+
 *samtools*: version 1.9-168-gb1e2c78
 
 **4a)** Parse alignment rate from STAR log using `summarize_STAR_log.R`
@@ -48,6 +50,7 @@ While different than the alignment rate, the downloaded starting reads correlate
 I include this in the report for comparison.  However, this is greater than 99% for all samples, so I question whether this might not be the best QC measure.
 
 *samtools*: version 1.9-168-gb1e2c78
+
 *Python*: version 2.7.18
 
 *R*: version 3.6.3
@@ -58,6 +61,7 @@ I include this in the report for comparison.  However, this is greater than 99% 
 This is a point raised in [this discussion](https://www.coursera.org/learn/genomic-data-science-project/discussions/weeks/4/threads/fqeAr2joEeu6wArSRfVFHws), which I hope to look into more a little later on.
 
 *R*: version 3.6.3
+
 *GenomicAlignments R package*: version 1.20.1
 
 ## Analysis Beyond Report:
