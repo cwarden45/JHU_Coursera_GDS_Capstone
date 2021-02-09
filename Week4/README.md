@@ -73,7 +73,7 @@ Here is the housekeeping gene [GAPDH](https://www.ncbi.nlm.nih.gov/gene/2597) (a
 
 ![IGV View](IGV_GAPDH.png "IGV View")
 
-And, here is [SOX11](https://www.ncbi.nlm.nih.gov/gene/6664) (referenced in the videos and [Figure 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281298/figure/F1/), which noticable variation between samples):
+And, here is [SOX11](https://www.ncbi.nlm.nih.gov/gene/6664) (referenced in the videos and [Figure 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281298/figure/F1/), whith noticable variation between Adult and Fetal samples):
 
 ![IGV View](IGV_SOX11.png "IGV View")
 
