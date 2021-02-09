@@ -97,4 +97,4 @@ I used `TopHat_PE_Alignment.py` for the alignment,  I used `summarize_TopHat2.py
 
 SRR1554536 is an outlier with a low GenomicAlignments alignment rate, with either the STAR alignment or the TopHat2 alignment rate.  This also matches a [lower quantification rate](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week6/README.md) in Week 6.
 
-I have started a [discussion thread](https://www.coursera.org/learn/genomic-data-science-project/discussions/weeks/4/threads/fqeAr2joEeu6wArSRfVFHw) in the Coursera forum, and I hope to be able to update that at a later time.
+Again, I have started a [discussion thread](https://www.coursera.org/learn/genomic-data-science-project/discussions/weeks/4/threads/fqeAr2joEeu6wArSRfVFHw) in the Coursera forum, and I hope to be able to update that at a later time.
