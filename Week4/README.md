@@ -67,7 +67,7 @@ While I think it might reflect something relevant, the absolute values are notic
 
 ## Analysis Beyond Report:
 
-- You can use the [Integrative Genomics Viewer](http://software.broadinstitute.org/software/igv/) (IGV) to visually check some genes.
+- **You can use the [Integrative Genomics Viewer](http://software.broadinstitute.org/software/igv/) (IGV) to visually check some genes**.
 
 Here is the housekeeping gene [GAPDH](https://www.ncbi.nlm.nih.gov/gene/2597) (as a general qualitative QC check):
 
@@ -79,7 +79,7 @@ And, here is [SOX11](https://www.ncbi.nlm.nih.gov/gene/6664) (referenced in the 
 
 Samples in the IGV plots above are sorted by SRR accession from the SRA, but not by group (Adult vs Fetal).  Infant samples were re-aligned put not plotted for reasons of space.
 
-- Confirming the metadata falls in expected categories (I initially wrote down one set of metadata wrong, and I also swapped the information for 2 pairs of samples that were not deposited):
+- **Confirming the metadata falls in expected categories** (I initially wrote down one set of metadata wrong, and I also swapped the information for 2 pairs of samples that were not deposited):
 
 ![Age check](age_check.png "Age check")
 
@@ -87,11 +87,11 @@ The above plot comes from `summarize_STAR_log.R`, but it is not directly in the 
 
 *R*: version 3.6.3
 
-- You can run *samtools* `idxstats` to check alignment rates per chromosome using `samtools_idxstats.py`
+- **You can run *samtools* `idxstats` to check alignment rates per chromosome using `samtools_idxstats.py`**
 
 However, for STAR, there are no reported unaligned reads (at least with the settings that I was using).
 
-- You can also run similar analysis with [TopHat2](https://ccb.jhu.edu/software/tophat/index.shtml) instead of STAR.
+- **You can also run similar analysis with [TopHat2](https://ccb.jhu.edu/software/tophat/index.shtml) instead of STAR.**
 
 I used `TopHat_PE_Alignment.py` for the alignment,  I used `summarize_TopHat2.py` to summarize the TopHat2 log, and I the same `GenomicAlignments_aligned_reads.R` script as STAR for the alternate alignment rate calculation.
 
