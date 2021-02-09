@@ -3,6 +3,7 @@
 **1)** Run featureCounts using `run_featureCounts.py`
 
 *subread*: version 2.0.1
+
 *Python*: version 2.7.18
 
 **2)** Summarize counts in a table using `reformat_featureCounts.R`
