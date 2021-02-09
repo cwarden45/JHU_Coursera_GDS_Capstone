@@ -39,7 +39,7 @@ The original hg19 sequence was downloaded from [Illumina iGenomes](https://suppo
 
 **4a)** Parse alignment rate from STAR log using `summarize_STAR_log.R`
 
-While different than the alignment rate, the downloaded starting reads correlate with the mapped reads in the paper:
+While different than the alignment rate, the STAR unique aligned read count correlates with the mapped reads reported in the paper:
 
 ![Comparison of Alignment Rates](alignment_comparison-STAR_log_unique.png "Comparison of Alignment Rates")
 
