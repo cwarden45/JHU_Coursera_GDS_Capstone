@@ -93,6 +93,8 @@ To my surprise, there was a noticable difference, such that the TIN scores were 
 
 ![RIN vs TIN](RIN_vs_TIN.png "RIN vs TIN")
 
+**Peer Review Note**:  When I was grading [Week 4](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week4/Summary_cwarden-Week4.pdf) assignments, I noticed that the alignment rate outlier (SRR1554536) had the lowest RIN score (with a value of 5.3).  **So, seeing the other reports was helpful for realizing that!**.  That said, the 2nd lowest RIN score was 5.7 for SRR1554541.  So, this is not match the absolute difference for the featureCounts calculation (or the unique STAR alignment rate).
+
 ![RIN or TIN by Group](RIN_TIN_by_Group.png "RIN or TIN by Group")
 
 *R*: version 3.6.3
