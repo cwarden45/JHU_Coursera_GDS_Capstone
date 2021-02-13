@@ -10,7 +10,7 @@ Week 7 - *Exploratory Analysis*
 
 Week 8 - *Statistical Analysis*
 
-Week 9 - *Gene Set Analysis*
+Week 9 - *Gene Set Analysis* (or, perhaps more precisely, "Roadmap Epigenomics Project H3K4me3 Liver Analysis" for promoters defined from Week 8
 
 Week 10 - Upload overall summary report (no additional analysis for "*Describe Your Analysis*")
 
