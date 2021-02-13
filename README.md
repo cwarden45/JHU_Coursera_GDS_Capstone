@@ -10,7 +10,7 @@ Week 7 - *Exploratory Analysis*
 
 Week 8 - *Statistical Analysis*
 
-Week 9 - *Gene Set Analysis* (or, perhaps more precisely, "*Roadmap Epigenomics Project H3K4me3 Liver Processed Data Analysis*" for promoters defined from Week 8 of the re-analyzed RNA-Seq data from [Jaffe et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281298/))
+Week 9 - *Gene Set Analysis* (or, perhaps more precisely, "*Roadmap Epigenomics Project H3K4me3 Liver Processed Data Analysis*" for promoters defined from **Week 8** of the re-analyzed RNA-Seq data from [Jaffe et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281298/))
 
 Week 10 - Upload overall summary report (no additional analysis for "*Describe Your Analysis*")
 
