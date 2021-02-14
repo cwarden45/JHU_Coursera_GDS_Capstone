@@ -32,19 +32,19 @@ png("FastQC_selected_summarized_values.png", height=400, width=1200)
 par(mfcol=c(1,3))
 
 plot(jitter(as.numeric(metadata.table$Group)),FastQC.table$Percent_Average_Q30,
-	pch=16, col=pointCol, xaxt='n', xlim=c(0,7),
+	pch=16, col=pointCol, xaxt='n', xlim=c(0,7), cex=2,
 	xlab="", ylab="Percent Average Q30 (R1)", main="Forward Read Q30 by Group")
 mtext(group_levels, side=1, at=c(1:length(group_levels)),
 		las=2, line=1)
 		
 plot(jitter(as.numeric(metadata.table$Group)),FastQC.table$Average_GC,
-	pch=16, col=pointCol, xaxt='n', xlim=c(0,7),
+	pch=16, col=pointCol, xaxt='n', xlim=c(0,7),cex=2,
 	xlab="", ylab="Average GC (R1)", main="Forward Read GC by Group")
 mtext(group_levels, side=1, at=c(1:length(group_levels)),
 		las=2, line=1)
 		
 plot(jitter(as.numeric(metadata.table$Group)),FastQC.table$Percent_Unique,
-	pch=16, col=pointCol, xaxt='n', xlim=c(0,7),
+	pch=16, col=pointCol, xaxt='n', xlim=c(0,7),cex=2,
 	xlab="", ylab="Percent Unique / Not Duplicated (R1)", main="Forward Unique Read by Group")
 mtext(group_levels, side=1, at=c(1:length(group_levels)),
 		las=2, line=1)
