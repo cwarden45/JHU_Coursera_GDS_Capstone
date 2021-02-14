@@ -28,6 +28,8 @@
 
 **4)** Heatmap of correlated variables `correlated_heatmap.R`
 
+![Variable Correlation Heatmap](correlation_heatmap.png "Variable Correlation Heatmap")
+
 A detailed description of those variables is available here:
 
 <table>
