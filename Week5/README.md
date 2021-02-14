@@ -65,7 +65,7 @@ The plot above is created using `FastQC_summary_flag.R`
 </tbody>
 </table>
 
-Because it was specifically requested in the assignment, Q30 values were also extracted.  Plots were created in R at a later step.
+Because it was specifically requested in the assignment, Q30 values were also extracted.
 
 An average Q30 value (along with average GC and percent unique reads) were calculated using `parse_FastQC_output-extra_3_var.py`
 
