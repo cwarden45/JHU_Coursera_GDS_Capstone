@@ -89,7 +89,7 @@ A summary plot was then created using `plot_extra_FastQC_stats.R`, for the forwa
 
 **4)** Check correlation between RIN and TIN scores (`RIN_TIN_correlation.R`):
 
-To my surprise, there was a noticable difference, such that the TIN scores were not as bad for the fetal samples:
+To my surprise, there was a noticable difference - the TIN scores were not as bad for the fetal samples:
 
 ![RIN vs TIN](RIN_vs_TIN.png "RIN vs TIN")
 
