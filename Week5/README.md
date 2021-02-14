@@ -105,4 +105,4 @@ To my surprise, there was a noticable difference, such that the TIN scores were 
 
 - You can get some additional sense of the relatedness of variables in [this heatmap of correlation coefficients](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week7/correlation_heatmap.png) from [Week 7](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week7/README.md). In general, it looks like the group differences are the most clear effect (and something highly confounded with what you want to study may not be possible to separate, no matter what).
 
--  - So, I am still curious about what happened with SRR1554536, but I am not highly concerned about the QC metrics.
+  - So, I am still curious about what happened with SRR1554536, but I am not highly concerned about the QC metrics.
