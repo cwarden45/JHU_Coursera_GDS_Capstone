@@ -26,10 +26,11 @@ pointCol[metadata.table$Group == "Infant"]="orange"
 
 #correlation
 png("RIN_vs_TIN.png")
+par(mar=c(5,5,3,2))
 plot(metadata.table$RIN, RSeQC.table$medTIN,
 	xlab="RIN",ylab="Median TIN",
 	xlim=c(0,10),ylim=c(0,100),
-	pch=16, col=pointCol)
+	pch=16, col=pointCol, cex.lab=2)
 legend("bottom",legend=c("Fetal","Infant","Adult"),
 		col=c("red","orange","blue"), pch=16,
 		ncol=3, cex=1.3, inset = 0.05)
