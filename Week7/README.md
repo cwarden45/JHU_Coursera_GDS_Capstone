@@ -112,16 +112,3 @@ A detailed description of those variables is available here:
 </table>
 
 *R*: version 3.6.3
-
-
-## Analysis Beyond Report:
-
-The PC2 values consistently match what I was expecting from the paper (that the fetal samples would be the most different).  However, the PC1 in the PCA plot using log2(CPM + 1) values makes it look like the adult samples could be the most different (in that other dimension).
-
-So, for comparison, I wanted to see what those input samples looked like with hierarhical clustering instead of PCA using `dendrogram_plot.R`:
-
-![Dendrogram 0.1](hierarchical_clustering_featureCounts_log2_0.1_quantified_CPM.png "Dendrogram 0.1")
-
-![Dendrogram 1](hierarchical_clustering_featureCounts_log2_1_quantified_CPM.png "Dendrogram 1")
-
-![Dendrogram 10](hierarchical_clustering_featureCounts_log2_10_quantified_CPM.png "Dendrogram 10")
