@@ -4,7 +4,7 @@
 
 FastQC can be run on either the FASTQ reads or the BAM alignments.
 
-I wanted to check the original reads, so that is the command listed above.
+I wanted to check the original reads, so that corresponds to the scripts listed above.
 
 I think additional analyis is helpful for checking the alignment, especially when specifically working with RNA-Seq data.  **However, just in case a goal of the assignment was to run FastQC on the .bam alignments, I also did that (using *run_FastQC_BAM.py*).**
 
