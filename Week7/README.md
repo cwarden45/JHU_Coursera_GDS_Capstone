@@ -112,3 +112,11 @@ A detailed description of those variables is available here:
 </table>
 
 *R*: version 3.6.3
+
+## Analysis Beyond (This Week's) Report:
+
+The PC2 values consistently match what I was expecting from the paper (that the fetal samples would be the most different).  However, the PC1 in the PCA plot using log2(CPM + 1) values makes it look like the adult samples could be the most different (in that other dimension).
+
+So, I thought it could be good to have another metric of similarity that comes to a consistent conclusion.  There are ways to do this with the exact same input data.
+
+However, I waited to see related results from other weeks before submitting a given week's report.  So, I would say the sample dendrogram for the [heatmap of differentially expressed genes](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week8/edgeR_DEG_FDR0.01_fc2_expr5-heatmap.png) with the [Week 8](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/tree/main/Week8) code helped give me confidence in what I had prepared for this week (and earlier weeks).
