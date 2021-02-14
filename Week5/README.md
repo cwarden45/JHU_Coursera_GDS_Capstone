@@ -107,4 +107,4 @@ To my surprise, there was a noticable difference - the **TIN** scores were not a
 
   - So, I am still curious about what happened with SRR1554536, but I am not highly concerned about the QC metrics.
   
-  - Or, perhaps more precisely, I probably can't differentiate a highly confounded variable (from a statistical standpoint).  However, I don't see any obvious signs of a substanital bias that can be corrected or removed (and would then make the Adult-versus-Fetal difference more clear). 
+  - Or, perhaps more precisely, I may not be able to confidently differentiate a highly confounded variable or variables (from a statistical standpoint).  However, I don't see any obvious signs of a substanital bias that can be corrected or removed (and would then make the Adult-versus-Fetal difference more clear). 
