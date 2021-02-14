@@ -95,7 +95,7 @@ Since the RIN score was mentioned in the project description, that was included 
 
 The coloring category "**AvF**" refers to the 2 groups directly used for the **A**dult-**v**ersus-**F**etal comparison.
 
-Sample SRR1554536 is an outlier compared the rest of the group (as we might expect), but RIN appears to have less of an effect than the group assignments.  So, along with otherwise generally consistent clustering / expression between replicates, I think it is OK that I did not include any covariates.  Also, most SRR1554536 genes are consistent with the other Adult samples.
+Sample SRR1554536 is an outlier compared the rest of the group (as we might expect), but RIN appears to have less of an effect than the group assignments.  So, along with otherwise generally consistent clustering / expression between replicates, I think it is OK that I did not include any covariates.  Also, most SRR1554536 genes are roughly consistent with the other Adult samples.
 
 *R*: version 3.6.3
 
