@@ -93,3 +93,5 @@
 Since the RIN score was mentioned in the project description, that was included in the heatmap plot (as a continuous variable).
 
 ![DEG heatmap](edgeR_DEG_FDR0.01_fc2_expr5-heatmap.png "DEG heatmap")
+
+The coloring category "**AvF**" refers to the 2 groups directly used for the **A**dult-**v**ersus-**F**etal comparison.
