@@ -53,3 +53,24 @@ mtext(group_levels, side=1, at=c(1:length(group_levels)),
 		las=2, line=1)
 
 dev.off()
+
+#I copied and modified snippets of code from https://github.com/cwarden45/RNAseq_templates/blob/master/TopHat_Workflow/DEG_goseq.R
+lm.fit = lm(RSeQC.table$medTIN ~ metadata.table$RIN)
+lm.result = summary(lm.fit)
+lm.pvalue = lm.result$coefficients[2,4]
+print(lm.result)
+print(lm.pvalue)
+
+group.2group = metadata.table$Group[metadata.table$Group != "Infant"]
+TIN.2group = RSeQC.table$medTIN[metadata.table$Group != "Infant"]
+RIN.2group = metadata.table$RIN[metadata.table$Group != "Infant"]
+
+fit = aov(TIN.2group ~ group.2group)
+result = summary(fit)
+aov.pvalue = result[[1]][['Pr(>F)']][1]
+print(aov.pvalue)
+
+fit = aov(RIN.2group ~ group.2group)
+result = summary(fit)
+aov.pvalue = result[[1]][['Pr(>F)']][1]
+print(aov.pvalue)
