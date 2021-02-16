@@ -101,6 +101,8 @@ To my surprise, there was a noticable difference - the **TIN** scores were not a
 
 **5)** Add STAR unique alignment rate plto and analysis (using `alignment_rate_by_group.R`):
 
+![STAR Unique Alignment Rate by Group](percent_STAR_unique_aligned_reads-by-Group.png "STAR Unique Alignment Rate by Group")
+
 While not strictly necessary, this script references a [metadata file](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week7/metadata_updated.txt) from **Week 7** (since this was added after seeing other reports and reviewing the assignment again)
 
 *R*: version 3.6.3
