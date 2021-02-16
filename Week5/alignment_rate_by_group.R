@@ -1,4 +1,5 @@
 metadata_file = "../Week7/metadata_updated.txt"
+metadata_file2 = "../Week4/alignment_stats.txt"
 
 metadata.table = read.table(metadata_file, head=T, sep="\t")
 print(dim(metadata.table))
@@ -37,4 +38,17 @@ result = summary(fit)
 aov.pvalue = result[[1]][['Pr(>F)']][1]
 
 print(result)
+print(aov.pvalue)
+
+
+## similar calculation for absolute counts
+metadata.table2 = read.table(metadata_file2, head=T, sep="\t")
+print(dim(metadata.table2))
+metadata.table2 = metadata.table2[match(metadata.table$SRR,metadata.table2$Sample),]
+print(dim(metadata.table2))
+
+aln_count.2group = metadata.table2$Unique_Aligned_Count[metadata.table$Group != "Infant"]
+fit = aov(aln_count.2group ~ group.2group)
+result = summary(fit)
+aov.pvalue = result[[1]][['Pr(>F)']][1]
 print(aov.pvalue)
