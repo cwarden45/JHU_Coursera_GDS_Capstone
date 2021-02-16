@@ -50,3 +50,24 @@ mtext(group_levels, side=1, at=c(1:length(group_levels)),
 		las=2, line=1)
 
 dev.off()
+
+#I copied and modified snippets of code from https://github.com/cwarden45/RNAseq_templates/blob/master/TopHat_Workflow/DEG_goseq.R
+group.2group = metadata.table$Group[metadata.table$Group != "Infant"]
+Q30.2group = FastQC.table$Percent_Average_Q30[metadata.table$Group != "Infant"]
+GC.2group = FastQC.table$Average_GC[metadata.table$Group != "Infant"]
+unique_R1.2group = FastQC.table$Percent_Unique[metadata.table$Group != "Infant"]
+
+fit = aov(Q30.2group ~ group.2group)
+result = summary(fit)
+aov.pvalue = result[[1]][['Pr(>F)']][1]
+print(aov.pvalue)
+
+fit = aov(GC.2group ~ group.2group)
+result = summary(fit)
+aov.pvalue = result[[1]][['Pr(>F)']][1]
+print(aov.pvalue)
+
+fit = aov(unique_R1.2group ~ group.2group)
+result = summary(fit)
+aov.pvalue = result[[1]][['Pr(>F)']][1]
+print(aov.pvalue)
