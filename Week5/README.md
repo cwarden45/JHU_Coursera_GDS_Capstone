@@ -105,6 +105,8 @@ To my surprise, there was a noticable difference - the **TIN** scores were not a
 
 While not strictly necessary, this script references a [metadata file](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week7/metadata_updated.txt) from **Week 7** (since this was added after seeing other reports and reviewing the assignment again).
 
+In fact, to provide a similar calculation for the aligned counts, I added the original parsed STAR file towards the end of the code.  Nevertheless, knowing the location of this updated metadata file might be helpful.
+
 *R*: version 3.6.3
 
 ## Analysis / Notes Beyond Report:
