@@ -115,7 +115,7 @@ In fact, to provide a similar calculation for the aligned counts, I added the or
 
   - So, I am still curious about what happened with SRR1554536, but I am not highly concerned about use of the QC metrics in the downstream steps.
   
-  - Or, perhaps more precisely, I may not be able to confidently differentiate a highly confounded variable or variables (from a statistical standpoint).  However, I don't see any obvious signs of a substanital bias that can be corrected or removed (and would then make the Adult-versus-Fetal difference more clear). 
+  - Or, perhaps more precisely, I may **not** be able to confidently differentiate a highly confounded variable or variables (from a statistical standpoint).  However, I don't see any obvious signs of a substanital bias that **can** be corrected or removed (and would then make the Adult-versus-Fetal difference more clear). 
 
 - **Peer Review Note (2/15/2021)**: As I thought more about my submission (and noticed that it seemed longer to get reviews for Week 5 than Week 4), I decided that there were some things that I could improve in my report (so, I suspended my submission by starting to edit it).  Essentially, I did not include any statistical analysis, so I wanted to go back and either add or reference ANOVA or linear regression p-values (since I saw another peer's report that included a t-test p-value).  There was also a point about the STAR unique aligned read *count* (versus the STAR unique alignment *rate*) that was not precise, and I think it would be better to correct during revision than as a post-acceptance correction (if I did get enough credit for the assignment, even with the previous submission).
 
