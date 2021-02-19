@@ -86,7 +86,7 @@ A detailed description of those variables is available here:
     </tr>
      <tr>
       <th align="center"><b>TIN</b></th>
-      <th align="center">Value for RNA quality calculated from STAR alignment (Transcript Integrity Number, Median Value), using RSeQC</th>
+      <th align="center">Value for RNA quality calculated from STAR alignment (Transcript Integrity Number, Median Value), using RSeQC; for details in <a href="https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week5/Summary_cwarden-Week5.pdf">Week 5 report</a> </th>
     </tr>
     <tr>
       <th align="center"><b>PC1_0.1</b></th>
