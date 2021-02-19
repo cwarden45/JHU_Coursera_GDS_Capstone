@@ -11,7 +11,9 @@
 ![CPM Violin Plot](featureCounts_quantified_CPM_violin.png "CPM Violin Plot")
 
 *reshape2 package*: version 1.4.4
+
 *ggplot2 package*: version 3.3.2
+
 *R*: version 3.6.3
 
 **2)** PCA Plots using `PCA_calculation_plot.R`
