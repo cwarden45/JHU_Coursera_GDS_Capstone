@@ -104,3 +104,11 @@ Sample SRR1554536 is an outlier compared the rest of the group (as we might expe
 *gplots package*: version 3.1.0
 
 *RColorBrewer package*: version 1.1-2
+
+## Post-Submission Notes / Corrections:
+
+In this week's report, I mention that the next week will look at liver differences.
+
+While we are supposed to check H3K4me3 in liver, that is a control comparison (only for adult samples).  Adult and fetal brain samples are also supposed to be compared.
+
+So, I apologize for not being precise about that.
