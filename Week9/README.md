@@ -119,7 +119,7 @@ The full results were downloaded and uploaded to this page.  I have summarized t
 </tbody>
 </table>
 
-So, with somewhat limited expertise, I the filtered gene list may be useful for identifying genes with relevant function in the dorsolateral prefrontal cortex of the brain.
+So, with somewhat limited expertise in neuroscience, I think that the filtered gene list may be useful for identifying genes with relevant function in the dorsolateral prefrontal cortex of the brain.
 
 ## Analysis / Notes Beyond Report:
 
