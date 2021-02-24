@@ -62,8 +62,8 @@
     </tr>
      <tr>
       <th align="center"><b>Fetal H3K4me3</b></th>
-      <th align="center">6,637 promoter overlaps<br>(77.1% not specific)</th>
-	<th align="center"> 3,991 promoter overlaps<br>(95.2% not specific)</th>
+	     <th align="center">6,637 promoter overlaps<br>(77.1% <i>not</i> specific)</th>
+	<th align="center"> 3,991 promoter overlaps<br>(95.2% <i>not</i> specific)</th>
     </tr>
 </tbody>
 </table>
