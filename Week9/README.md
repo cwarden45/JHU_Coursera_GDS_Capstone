@@ -68,7 +68,7 @@
 </tbody>
 </table>
 
-There is a lot genes that do not appear to have liver-specific expression, but I can check the ***filtered*** genes that have overlapping brain peaks but not liver peaks.
+There is a lot genes that do not appear to have liver-specific expression, but I can check the ***filtered*** genes that have overlapping brain peaks but *not* liver peaks.
 
 *R*: version 4.0.3 (different verison from other weeks, due to AnnotationHub dependencies)
 
