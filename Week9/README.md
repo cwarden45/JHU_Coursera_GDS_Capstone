@@ -46,7 +46,7 @@
 </tbody>
 </table>
 
-***Non-specific* Overlap (*Liver* with qValue > 5)**:
+***Non-specific* Overlap (*Liver*, with qValue > 5)**:
 
 <table>
   <tbody>
