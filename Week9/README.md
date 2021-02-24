@@ -80,7 +80,7 @@
 
 ## Analysis / Notes Beyond Report:
 
-- Additional public data research:
+Additional public data research:
 
 [GSE160810](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE160810) - fetal, pediatric, and adult scRNA-Seq of brain tissue
 
