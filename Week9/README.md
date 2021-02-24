@@ -82,6 +82,45 @@ There is a lot genes that do not appear to have liver-specific expression, but I
 
 **2)** Carry out enrichment of filtered gene list using [Enrichr](https://maayanlab.cloud/Enrichr/) (on 2/23/2021)
 
+The full results were downloaded and uploaded to this page.  I have summarized the top categories (by p-value) below:
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center"></th>
+      <th align="center"><b>Adult Enrichment</b></th>
+	<th align="center"><b>Fetal Enrichment</b></th>
+    </tr>
+     <tr>
+      <th align="center"><b>BioPlanet 2019</b></th>
+      <th align="center">neuronal system</th>
+	<th align="center">axon guidance</th>
+    </tr>
+     <tr>
+      <th align="center"><b>Elseivier Pathway Collection</b></th>
+      <th align="center">Proteins Involved in Epilepsy</th>
+	<th align="center">Glioblastoma, Proneural Subtype</th>
+    </tr>
+     <tr>
+      <th align="center"><b>Reactome 2016</b></th>
+      <th align="center">Neuronal System</th>
+	<th align="center">Neuronal System</th>
+    </tr>
+     <tr>
+      <th align="center"><b>GO Biological Process 2018</b></th>
+      <th align="center">chemical synaptic transmission</th>
+	<th align="center">central nervous system development</th>
+    </tr>
+     <tr>
+      <th align="center"><b>Human Gene Atlas</b></th>
+      <th align="center">Amygdala</th>
+	<th align="center">Fetalbrain</th>
+    </tr>
+</tbody>
+</table>
+
+So, with somewhat limited expertise, I the filtered gene list may be useful for identifying genes with relevant function in the dorsolateral prefrontal cortex of the brain.
+
 ## Analysis / Notes Beyond Report:
 
 Additional public data research:
