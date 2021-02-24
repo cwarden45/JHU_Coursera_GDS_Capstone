@@ -62,11 +62,13 @@
     </tr>
      <tr>
       <th align="center"><b>Fetal H3K4me3</b></th>
-      <th align="center"> promoter overlaps</th>
-	  <th align="center"> promoter overlaps</th>
+      <th align="center">6,637 promoter overlaps<br>(77.1% not specific)</th>
+	<th align="center"> 3,991 promoter overlaps<br>(95.2% not specific)</th>
     </tr>
 </tbody>
 </table>
+
+There is a lot genes that do not appear to have liver-specific expression, but I can check the ***filtered** genes that have overlapping brain peaks but not liver peaks.
 
 *R*: version 4.0.3 (different verison from other weeks, due to AnnotationHub dependencies)
 
@@ -77,6 +79,8 @@
 *org.Hs.eg.db package*: version 3.12.0
 
 *AnnotationHub package*: version 2.22.0
+
+**2)** Carry out enrichment of filtered gene list using [Enrichr](https://maayanlab.cloud/Enrichr/) (on 2/23/2021)
 
 ## Analysis / Notes Beyond Report:
 
