@@ -12,7 +12,7 @@ These are my detailed methods for my Capstone Project for the [Genomic Data Scie
 
 [Week 9](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/tree/main/Week9) - *Gene Set Analysis* (scroll down to see README.md content, or click [here](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Week9/README.md))
 
-- To be clear, the **Week 9** assignment is ***not*** traditional gene set enrichment of the gene list from **Week 8** (of the re-analyzed RNA-Seq data from [Jaffe et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281298/))
+- To be clear, the **Week 9** assignment was *not* explicitly traditional gene set enrichment of the gene list from **Week 8** (of the re-analyzed RNA-Seq data from [Jaffe et al. 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281298/))
 
 - Instead, this is a test of robustness of the gene set defined in Week 8 of this project ***applied to other datasets***, which the required dataset being a different data type (where I might call this "*Promoter Analysis of Roadmap Epigenomics Project H3K4me3 Processed Data*")
 
