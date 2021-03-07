@@ -18,6 +18,8 @@ These are my detailed methods for my Capstone Project for the [Genomic Data Scie
 
 - However, I **do** provide enrichment results among the filtered gene list.
 
-Week 10 - Upload overall summary report (no additional analysis for "*Describe Your Analysis*")
+[Week 10](https://github.com/cwarden45/JHU_Coursera_GDS_Capstone/blob/main/Methods_cwarden-Week10.pdf) - Upload overall summary report (no additional analysis for "*Describe Your Analysis*")
 
 I also have notes about the 7 individual courses that need to be completed before the Capstone (as well as other on-line courses) [here](http://cdwscience.blogspot.com/2019/12/experiences-with-on-line-courses.html).
+
+You can also see my certificates for the [Capstone](https://coursera.org/share/4a8104c102475500ad9b735d41d3cf1b) as well as the [Specialization](https://www.coursera.org/account/accomplishments/specialization/3D38XL522GJX).
